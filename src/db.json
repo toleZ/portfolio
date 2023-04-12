@@ -1,0 +1,101 @@
+{
+  "projectList": [
+    {
+      "title": "Eco-Friendly Living Tips 🌿",
+      "image": "https://source.unsplash.com/400x250/?nature,ecofriendly",
+      "deploy": "https://www.google.com",
+      "repository": "https://www.github.com",
+      "type": "Back End",
+      "description": "Learn how to live a sustainable lifestyle."
+    },
+    {
+      "title": "Travel Tales and Tips ✈️",
+      "image": "https://source.unsplash.com/400x250/?travel,adventure",
+      "deploy": "https://www.google.com",
+      "repository": "https://www.github.com",
+      "type": "Front End",
+      "description": "Follow our travel tales and get insider tips."
+    },
+    {
+      "title": "Healthy Lifestyle Tricks 🥦",
+      "image": "https://source.unsplash.com/400x250/?health,food",
+      "deploy": "https://www.google.com",
+      "repository": "https://www.github.com",
+      "type": "Front End",
+      "description": "Live a healthier life with our collection of tips."
+    },
+    {
+      "title": "Inspiration for Creatives 🎨",
+      "image": "https://source.unsplash.com/400x250/?art,design",
+      "deploy": "https://www.google.com",
+      "repository": "https://www.github.com",
+      "type": "Back End",
+      "description": "Get inspired and unleash your creativity."
+    },
+    {
+      "title": "Latest Tech Trends 👨‍💻",
+      "image": "https://source.unsplash.com/400x250/?technology,gadgets",
+      "deploy": "https://www.google.com",
+      "repository": "https://www.github.com",
+      "type": "Full Stack",
+      "description": "Stay up to date with the latest tech trends."
+    },
+    {
+      "title": "Delicious Home Recipes 🍴",
+      "image": "https://source.unsplash.com/400x250/?food,cooking",
+      "deploy": "https://www.google.com",
+      "repository": "https://www.github.com",
+      "type": "Full Stack",
+      "description": "Cook up a storm with our collection of delicious recipes."
+    },
+    {
+      "title": "Fitness Tracker 🏋️‍♂️",
+      "image": "https://source.unsplash.com/400x250/?fitness,gym",
+      "deploy": "https://www.google.com",
+      "repository": "https://www.github.com",
+      "type": "Full Stack",
+      "description": "Track your fitness goals and progress with our fitness tracker app."
+    },
+    {
+      "title": "Online Marketplace 🛍️",
+      "image": "https://source.unsplash.com/400x250/?ecommerce,shopping",
+      "deploy": "https://www.google.com",
+      "repository": "https://www.github.com",
+      "type": "Full Stack",
+      "description": "Create your own online marketplace with our easy-to-use platform."
+    },
+    {
+      "title": "Language Learning App 🗣️",
+      "image": "https://source.unsplash.com/400x250/?language,education",
+      "deploy": "https://www.google.com",
+      "repository": "https://www.github.com",
+      "type": "Front End",
+      "description": "Learn a new language with our fun and interactive language learning app."
+    },
+    {
+      "title": "Personal Finance Manager 💰",
+      "image": "https://source.unsplash.com/400x250/?finance,money",
+      "deploy": "https://www.google.com",
+      "repository": "https://www.github.com",
+      "type": "Full Stack",
+      "description": "Take control of your finances with our personal finance manager app."
+    },
+    {
+      "title": "Social Media Aggregator 📱",
+      "image": "https://source.unsplash.com/400x250/?socialmedia,technology",
+      "deploy": "https://www.google.com",
+      "repository": "https://www.github.com",
+      "type": "Back End",
+      "description": "Aggregate all your social media feeds into one convenient app."
+    },
+    {
+      "title": "Virtual Interior Designer 🛋️",
+      "image": "https://source.unsplash.com/400x250/?interiordesign,homedecor",
+      "deploy": "https://www.google.com",
+      "repository": "https://www.github.com",
+      "type": "Full Stack",
+      "description": "Design and visualize your dream home with our virtual interior designer app."
+    }
+  ],
+  "skills": ["Full Stack", "Front End", "Back End"]
+}
