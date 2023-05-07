@@ -7,7 +7,7 @@ const ToTopButton = () => {
 
   return (
     <Link
-      className={`fixed bottom-0 right-0 m-4 p-2 border-2 rounded-full bg-light-navy border-light-navy text-white hover:bg-transparent hover:text-light-navy hover:cursor-pointer transition-all duration-300 ${
+      className={`fixed bottom-0 right-0 m-4 mb-16 p-2 border-2 rounded-full bg-light-navy border-light-navy text-white hover:bg-transparent hover:text-light-navy hover:cursor-pointer transition-all duration-300 ${
         scrollY < 50 ? "translate-x-[1000px]" : "translate-x-0"
       }`}
       to="home"

@@ -3,27 +3,27 @@ import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import NavBar from "./components/NavBar";
-import ToTopButton from "./components/ToTopButton";
 import Footer from "./components/Footer";
+import ToggleColorButton from "./components/ToggleColorButon";
+import ToTopButton from "./components/ToTopButton";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const App = () => {
   return (
     <>
-      <>
-        <header>
-          <NavBar />
-        </header>
-        <main>
-          <Home />
-          <About />
-          <Projects />
-          <Contact />
-        </main>
-        <Footer />
-        <ToTopButton />
-      </>
+      <header>
+        <NavBar />
+      </header>
+      <main>
+        <Home />
+        <About />
+        <Projects />
+        <Contact />
+      </main>
+      <Footer />
+      <ToggleColorButton />
+      <ToTopButton />
       <ToastContainer
         position="bottom-right"
         autoClose={3000}

@@ -69,7 +69,7 @@ const Contact = () => {
 
   return (
     <div
-      className="p-10 w-full min-h-screen bg-dark-900 bg-cover bg-zinc-900 flex flex-col justify-center items-center"
+      className="p-10 w-full min-h-screen bg-cover bg-dark-900 flex flex-col justify-center items-center"
       id="contact"
     >
       <h1 className="mb-6 relative text-gray-500 text-8xl text-opacity-50 font-londrina after:absolute after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:content-['Contact'] after:text-3xl after:text-white after:font-lora">

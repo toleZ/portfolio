@@ -13,7 +13,7 @@ import { FaNodeJs } from "react-icons/fa";
 const About = () => {
   return (
     <div
-      className="p-10 w-full min-h-screen flex flex-col justify-center bg-dark-900 bg-cover bg-zinc-900"
+      className="p-10 w-full min-h-screen flex flex-col justify-center bg-cover bg-dark-900"
       id="about"
     >
       <h1 className="mb-6 relative text-gray-500 text-8xl text-opacity-50 font-londrina after:absolute after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:content-['About'] after:text-3xl after:text-white after:font-lora text-center">
@@ -49,31 +49,31 @@ const About = () => {
 
       <footer className="w-full mt-20">
         <ul className="flex flex-row justify-around gap-3">
-          <li className="text-6xl text-gray-400 transition-all duration-300 hover:text-java-script hover:scale-125">
+          <li className="text-6xl text-gray-400 transition-all duration-300 hover:text-brand-java-script hover:scale-125">
             <SiJavascript />
           </li>
-          <li className="text-6xl text-gray-400 transition-all duration-300 hover:text-type-script hover:scale-125">
+          <li className="text-6xl text-gray-400 transition-all duration-300 hover:text-brand-type-script hover:scale-125">
             <SiTypescript />
           </li>
-          <li className="text-6xl text-gray-400 transition-all duration-300 hover:text-react hover:scale-125">
+          <li className="text-6xl text-gray-400 transition-all duration-300 hover:text-brand-react hover:scale-125">
             <SiReact />
           </li>
-          <li className="text-6xl text-gray-400 transition-all duration-300 hover:text-redux hover:scale-125">
+          <li className="text-6xl text-gray-400 transition-all duration-300 hover:text-brand-redux hover:scale-125">
             <SiRedux />
           </li>
-          <li className="text-6xl text-gray-400 transition-all duration-300 hover:text-node-js hover:scale-125">
+          <li className="text-6xl text-gray-400 transition-all duration-300 hover:text-brand-node-js hover:scale-125">
             <FaNodeJs />
           </li>
-          <li className="text-6xl text-gray-400 transition-all duration-300 hover:text-express hover:scale-125">
+          <li className="text-6xl text-gray-400 transition-all duration-300 hover:text-brand-express hover:scale-125">
             <SiExpress />
           </li>
-          <li className="text-6xl text-gray-400 transition-all duration-300 hover:text-sequelize hover:scale-125">
+          <li className="text-6xl text-gray-400 transition-all duration-300 hover:text-brand-sequelize hover:scale-125">
             <SiSequelize />
           </li>
-          <li className="text-6xl text-gray-400 transition-all duration-300 hover:text-postresql hover:scale-125">
+          <li className="text-6xl text-gray-400 transition-all duration-300 hover:text-brand-postresql hover:scale-125">
             <SiPostgresql />
           </li>
-          <li className="text-6xl text-gray-400 transition-all duration-300 hover:text-mongodb hover:scale-125">
+          <li className="text-6xl text-gray-400 transition-all duration-300 hover:text-brand-mongodb hover:scale-125">
             <SiMongodb />
           </li>
         </ul>

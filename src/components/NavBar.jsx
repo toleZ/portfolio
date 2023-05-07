@@ -68,7 +68,7 @@ const NavBar = () => {
           <a
             href="https://www.linkedin.com/in/juan-cruz-toloy-85610223b/"
             target="_blank"
-            className="text-lg text-linkedin "
+            className="text-lg text-brand-linkedin "
           >
             <FiLinkedin />
           </a>
@@ -77,7 +77,7 @@ const NavBar = () => {
           <a
             href="https://github.com/tolez"
             target="_blank"
-            className="text-lg text-git"
+            className="text-lg text-brand-git"
           >
             <FiGithub />
           </a>
@@ -86,7 +86,7 @@ const NavBar = () => {
           <a
             href="https://wa.link/72q4il"
             target="_blank"
-            className="text-lg text-whatsapp"
+            className="text-lg text-brand-whatsapp"
           >
             <FaWhatsapp />
           </a>

@@ -3,13 +3,13 @@ import { FaWhatsapp } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="py-8 bg-dark-950 text-white flex justify-around">
+    <footer className="py-8 bg-cover bg-light-500 dark:bg-dark-950 text-white flex justify-around">
       <ul className="flex gap-3 justify-evenly">
         <li className="hover:scale-125 transition-all duration-300">
           <a
             href="https://www.linkedin.com/in/juan-cruz-toloy-85610223b/"
             target="_blank"
-            className="text-lg text-linkedin "
+            className="text-lg text-brand-linkedin"
           >
             <FiLinkedin />
           </a>
@@ -18,7 +18,7 @@ const Footer = () => {
           <a
             href="https://github.com/tolez"
             target="_blank"
-            className="text-lg text-git"
+            className="text-lg text-brand-git"
           >
             <FiGithub />
           </a>
@@ -27,7 +27,7 @@ const Footer = () => {
           <a
             href="https://wa.link/72q4il"
             target="_blank"
-            className="text-lg text-whatsapp"
+            className="text-lg text-brand-whatsapp"
           >
             <FaWhatsapp />
           </a>

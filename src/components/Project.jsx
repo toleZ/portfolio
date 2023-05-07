@@ -25,14 +25,14 @@ const Project = ({ project }) => {
 
         <div className="z-[3] absolute right-0 m-3 flex gap-2">
           <a
-            className="text-linkedin text-xl hover:scale-125 transition-all duration-300"
+            className="text-brand-linkedin text-xl hover:scale-125 transition-all duration-300"
             href={deploy}
           >
             <FiGlobe />
           </a>
 
           <a
-            className="text-git text-xl hover:scale-125 transition-all duration-300"
+            className="text-brand-git text-xl hover:scale-125 transition-all duration-300"
             href={repository}
           >
             <FiGithub />
