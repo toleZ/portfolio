@@ -4,7 +4,7 @@ import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
-import ToggleColorButton from "./components/ToggleColorButon";
+/* import ToggleColorButton from "./components/ToggleColorButon"; */
 import ToTopButton from "./components/ToTopButton";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -22,7 +22,7 @@ const App = () => {
         <Contact />
       </main>
       <Footer />
-      <ToggleColorButton />
+      {/* <ToggleColorButton /> */}
       <ToTopButton />
       <ToastContainer
         position="bottom-right"
