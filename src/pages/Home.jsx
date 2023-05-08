@@ -1,7 +1,7 @@
 const Home = () => {
   return (
     <div
-      className="p-10 w-full min-h-screen bg-cover bg-dark-950 relative"
+      className="p-10 w-full min-h-screen bg-cover bg-zinc-950 bg-dark-950 relative"
       id="home"
     >
       <div className="ml-6 absolute top-1/2 left-1/3 translate-x-[-50%] translate-y-[-50%]">

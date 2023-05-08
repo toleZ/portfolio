@@ -3,7 +3,7 @@ import { FaWhatsapp } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="py-8 bg-cover bg-dark-950 text-white flex justify-around">
+    <footer className="py-8 bg-cover bg-zinc-950 bg-dark-950 text-white flex justify-around">
       <ul className="flex gap-3 justify-evenly">
         <li className="hover:scale-125 transition-all duration-300">
           <a

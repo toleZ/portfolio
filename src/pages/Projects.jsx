@@ -36,7 +36,7 @@ const Projects = () => {
 
   return (
     <div
-      className="p-10 pt-12 w-full min-h-screen bg-cover bg-dark-950 flex flex-col items-center"
+      className="p-10 pt-12 w-full min-h-screen bg-cover bg-zinc-950 bg-dark-950 flex flex-col items-center"
       id="projects"
     >
       <h1 className="mb-4 relative text-gray-500 text-8xl text-opacity-50 font-londrina after:absolute after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:content-['Projects'] after:text-3xl after:text-white after:font-lora">
