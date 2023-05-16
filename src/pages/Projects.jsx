@@ -58,7 +58,7 @@ const Projects = () => {
         ))}
       </ul>
 
-      <section className="grid lg:grid-cols-3 grid-cols-2 gap-6">
+      <section className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6">
         {[...projectsToShow].map((project) => (
           <Project project={project} key={project.title} />
         ))}

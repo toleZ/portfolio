@@ -40,12 +40,14 @@ const Project = ({ project }) => {
         </div>
 
         <section className="absolute bottom-0 z-[2] w-full p-4 opacity-0 group-hover:opacity-100 transition-all duration-300">
-          <h2 className="text-2xl text-white font-hind font-semibold">
+          <h2 className="text-xl md:text-2xl text-white font-hind font-semibold">
             {title}
           </h2>
-          <span className="text-lg text-light-navy font-lora">{type}</span>
+          <span className="text-md md:text-lg text-light-navy font-lora">
+            {type}
+          </span>
           <div className="w-full h-[1px] bg-light-navy my-2" />
-          <p className="text-white text-base font-hind font-light">
+          <p className="text-white text-sm md:text-base font-hind font-light">
             {description}
           </p>
         </section>
