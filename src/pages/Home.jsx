@@ -24,7 +24,7 @@ const Home = () => {
           View my CV
         </a>
         <a
-          className="mt-6 ml-3 p-3 inline-block border-2 border-light-navy bg-light-navy rounded-sm text-white font-semibold hover:border-light-navy hover:bg-opacity-0 hover:text-light-navy active:scale-90  transition-all duration-300"
+          className="mt-6 md:ml-3 p-3 inline-block border-2 border-light-navy bg-light-navy rounded-sm text-white font-semibold hover:border-light-navy hover:bg-opacity-0 hover:text-light-navy active:scale-90  transition-all duration-300"
           href="./ToloyJuanCruzCV.pdf"
           download
         >
