@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { projectList, skills } from "../db.json";
 import { MdKeyboardArrowDown, MdKeyboardArrowUp } from "react-icons/md";
 import Project from "../components/Project";
+import Title from "../components/Title";
 
 const Projects = () => {
   const { width } = window.screen;
@@ -39,9 +40,7 @@ const Projects = () => {
       className="p-10 pt-12 w-full min-h-screen bg-cover bg-zinc-950 bg-dark-950 flex flex-col items-center"
       id="projects"
     >
-      <h1 className="mb-4 relative text-gray-500 text-8xl text-opacity-50 font-londrina after:absolute after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:content-['Projects'] after:text-3xl after:text-white after:font-lora">
-        PROJECTS
-      </h1>
+      <Title>Projects</Title>
 
       <ul className="flex gap-6 mb-8 text-lg text-gray-500 font-lora">
         {skills.map((skill) => (

@@ -4,6 +4,7 @@ import { toast } from "react-toastify";
 import { useValidate } from "../hooks/useValidate";
 import { GoAlert } from "react-icons/go";
 import { Tooltip } from "react-tooltip";
+import Title from "../components/Title";
 
 const formInitialState = {
   from: "",
@@ -72,9 +73,7 @@ const Contact = () => {
       className="p-10 w-full min-h-screen bg-cover bg-zinc-900 bg-dark-900 flex flex-col justify-center items-center"
       id="contact"
     >
-      <h1 className="mb-6 relative text-gray-500 text-8xl text-opacity-50 font-londrina after:absolute after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:content-['Contact'] after:text-3xl after:text-white after:font-lora">
-        CONTACT
-      </h1>
+      <Title>Contact</Title>
 
       <form className="w-3/4 font-hind" onSubmit={handleSubmit}>
         <div className="relative w-full my-6">
