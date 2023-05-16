@@ -1,14 +1,11 @@
 import { FaWhatsapp } from "react-icons/fa";
 import { FiLinkedin, FiGithub } from "react-icons/fi";
 import { Link } from "react-scroll";
-import { useScroll } from "../hooks/useScroll";
 
 const NavBar = () => {
-  const { scrollY } = useScroll();
-
   return (
     <nav
-      className={`z-10 w-full fixed flex justify-around items-center py-6 text-white `}
+      className={`hidden z-10 w-full fixed md:flex justify-around items-center py-6 text-white `}
     >
       <span className="text-2xl font-montserrat">Juan C. Toloy</span>
 

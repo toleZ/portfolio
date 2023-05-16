@@ -3,7 +3,12 @@ import { FaWhatsapp } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="py-8 bg-cover bg-zinc-950 bg-dark-950 text-white flex justify-around">
+    <footer className="py-8 bg-cover bg-zinc-950 bg-dark-950 text-white flex flex-col gap-4 md:flex-row justify-around items-center">
+      <div>
+        <span className="font-montserrat">Juan C. Toloy | </span>
+        <span className="font-lora text-light-navy">Full Stack Developer</span>
+      </div>
+
       <ul className="flex gap-3 justify-evenly">
         <li className="hover:scale-125 transition-all duration-300">
           <a
@@ -33,11 +38,6 @@ const Footer = () => {
           </a>
         </li>
       </ul>
-
-      <span>
-        <span className="font-montserrat">Juan C. Toloy | </span>
-        <span className="font-lora text-light-navy">Full Stack Developer</span>
-      </span>
     </footer>
   );
 };

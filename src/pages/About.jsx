@@ -28,27 +28,32 @@ const About = () => {
 
         <div className="w-full h-[1px] bg-gray-500 opacity-20"></div>
 
-        <p className="mt-6 text-gray-500 font-hind text-lg leading-loose">
-          🙋‍♂️ Hello! I am a Full Stack developer with experience in technologies
-          such as JavaScript, TypeScript, React, Redux, NodeJS, Express,
-          Sequelize, PostgreSQL, MongoDB, among others.
-          <br />
-          🚀 I have experience as a Henry Hero where I have taught online
-          classes in the "Soy Henry" bootcamp from Monday to Thursday to people
-          who have no previous knowledge of programming.
-          <br />
-          🌱 I am a very curious person who is always looking to learn new
-          things and improve their skills. I am always looking for new
-          challenges that allow me to continue growing as a professional.
-          <br />
-          🔭 I am currently looking for job opportunities, so if my profile fits
-          what you are looking for, do not hesitate to contact me at my email{" "}
-          <i>toloyjc@gmail.com.</i>
-        </p>
+        <div className="mt-6 text-gray-500 font-hind text-lg leading-loose">
+          <p className="mb-4">
+            🙋‍♂️ Hello! I am a Full Stack developer with experience in
+            technologies such as JavaScript, TypeScript, React, Redux, NodeJS,
+            Express, Sequelize, PostgreSQL, MongoDB, among others.
+          </p>
+          <p className="mb-4">
+            🚀 I have experience as a Henry Hero where I have taught online
+            classes in the "Soy Henry" bootcamp from Monday to Thursday to
+            people who have no previous knowledge of programming.
+          </p>
+          <p className="mb-4">
+            🌱 I am a very curious person who is always looking to learn new
+            things and improve their skills. I am always looking for new
+            challenges that allow me to continue growing as a professional.
+          </p>
+          <p>
+            🔭 I am currently looking for job opportunities, so if my profile
+            fits what you are looking for, do not hesitate to contact me at my
+            email <i>toloyjc@gmail.com.</i>
+          </p>
+        </div>
       </section>
 
-      <footer className="w-full mt-20">
-        <ul className="flex flex-row justify-around gap-3">
+      <footer className="w-full mt-12">
+        <ul className="w-full flex flex-wrap flex-row justify-around gap-3 animate-slide">
           <li className="text-6xl text-gray-400 transition-all duration-300 hover:text-brand-java-script hover:scale-125">
             <SiJavascript />
           </li>
