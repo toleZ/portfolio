@@ -29,7 +29,7 @@ const Projects = () => {
 
     maxToShow === quantityProjects
       ? setQuantityProjects(6)
-      : setQuantityProjects(quantityProjects + (width < 1024 ? 2 : 3));
+      : setQuantityProjects(quantityProjects + (width < 1024 ? 3 : 2));
   };
 
   useEffect(updateProjects, [selectedSkill, quantityProjects]);
