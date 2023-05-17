@@ -3,6 +3,7 @@ import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import NavBar from "./components/NavBar";
+import MobileNavbar from "./components/MobileNavbar";
 import Footer from "./components/Footer";
 /* import ToggleColorButton from "./components/ToggleColorButon"; */
 import ToTopButton from "./components/ToTopButton";
@@ -14,6 +15,7 @@ const App = () => {
     <>
       <header>
         <NavBar />
+        <MobileNavbar />
       </header>
       <main>
         <Home />
