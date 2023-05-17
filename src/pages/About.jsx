@@ -52,32 +52,32 @@ const About = () => {
       </section>
 
       <footer className="w-full mt-12">
-        <ul className="w-full flex flex-wrap flex-row justify-around gap-3 animate-slide">
-          <li className="text-6xl text-gray-400 transition-all duration-300 hover:text-brand-java-script hover:scale-125">
+        <ul className="w-full grid grid-cols-3 md:flex flex-wrap flex-row justify-around gap-3 animate-slide">
+          <li className="text-6xl text-gray-400 place-self-center transition-all duration-300 hover:text-brand-java-script hover:scale-125">
             <SiJavascript />
           </li>
-          <li className="text-6xl text-gray-400 transition-all duration-300 hover:text-brand-type-script hover:scale-125">
+          <li className="text-6xl text-gray-400 place-self-center transition-all duration-300 hover:text-brand-type-script hover:scale-125">
             <SiTypescript />
           </li>
-          <li className="text-6xl text-gray-400 transition-all duration-300 hover:text-brand-react hover:scale-125">
+          <li className="text-6xl text-gray-400 place-self-center transition-all duration-300 hover:text-brand-react hover:scale-125">
             <SiReact />
           </li>
-          <li className="text-6xl text-gray-400 transition-all duration-300 hover:text-brand-redux hover:scale-125">
+          <li className="text-6xl text-gray-400 place-self-center transition-all duration-300 hover:text-brand-redux hover:scale-125">
             <SiRedux />
           </li>
-          <li className="text-6xl text-gray-400 transition-all duration-300 hover:text-brand-node-js hover:scale-125">
+          <li className="text-6xl text-gray-400 place-self-center transition-all duration-300 hover:text-brand-node-js hover:scale-125">
             <FaNodeJs />
           </li>
-          <li className="text-6xl text-gray-400 transition-all duration-300 hover:text-brand-express hover:scale-125">
+          <li className="text-6xl text-gray-400 place-self-center transition-all duration-300 hover:text-brand-express hover:scale-125">
             <SiExpress />
           </li>
-          <li className="text-6xl text-gray-400 transition-all duration-300 hover:text-brand-sequelize hover:scale-125">
+          <li className="text-6xl text-gray-400 place-self-center transition-all duration-300 hover:text-brand-sequelize hover:scale-125">
             <SiSequelize />
           </li>
-          <li className="text-6xl text-gray-400 transition-all duration-300 hover:text-brand-postresql hover:scale-125">
+          <li className="text-6xl text-gray-400 place-self-center transition-all duration-300 hover:text-brand-postresql hover:scale-125">
             <SiPostgresql />
           </li>
-          <li className="text-6xl text-gray-400 transition-all duration-300 hover:text-brand-mongodb hover:scale-125">
+          <li className="text-6xl text-gray-400 place-self-center transition-all duration-300 hover:text-brand-mongodb hover:scale-125">
             <SiMongodb />
           </li>
         </ul>
