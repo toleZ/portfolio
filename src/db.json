@@ -3,16 +3,16 @@
     {
       "title": "Sneak Sneakers 👟",
       "image": "https://source.unsplash.com/400x250/?sneakers",
-      "deploy": "https://www.google.com",
-      "repository": "https://www.github.com",
+      "deploy": "http://snake-sneakers.vercel.app/",
+      "repository": "https://github.com/toleZ/snake-sneakers",
       "type": "Full Stack",
       "description": "An e-commerce site for sneaker enthusiasts."
     },
     {
       "title": "Gusteau's Recipes 🧑‍🍳",
       "image": "https://source.unsplash.com/400x250/?recipes,food",
-      "deploy": "https://www.google.com",
-      "repository": "https://www.github.com",
+      "deploy": "https://pi-food-ratatouille.vercel.app/",
+      "repository": "https://github.com/toleZ/pi-food-ratatouille",
       "type": "Full Stack",
       "description": "A recipe-sharing platform for food lovers."
     },
@@ -27,34 +27,42 @@
     {
       "title": "Rick and Morty 👽",
       "image": "https://source.unsplash.com/400x250/?aliens",
-      "deploy": "https://www.google.com",
-      "repository": "https://www.github.com",
+      "deploy": "http://rick-and-morty-tolez.vercel.app/",
+      "repository": "https://github.com/toleZ/rick_and_morty",
       "type": "Front End",
       "description": "A website showcasing Rick and Morty characters."
     },
     {
       "title": "Password generator 🔑",
       "image": "https://source.unsplash.com/400x250/?password,hacker",
-      "deploy": "https://www.google.com",
-      "repository": "https://www.github.com",
+      "deploy": "https://random-password-generator-iota.vercel.app/",
+      "repository": "https://github.com/toleZ/random-password-generator",
       "type": "Front End",
       "description": "A tool for generating secure passwords."
     },
     {
       "title": "Pomodoro timer 🍅",
       "image": "https://source.unsplash.com/400x250/?time,clock,timer",
-      "deploy": "https://www.google.com",
-      "repository": "https://www.github.com",
+      "deploy": "http://pomodoro-timer-tolez.vercel.app/",
+      "repository": "https://github.com/toleZ/pomodoro-timer",
       "type": "Front End",
       "description": "A productivity timer for efficient time management."
     },
     {
       "title": "ToDo 🗒️",
       "image": "https://source.unsplash.com/400x250/?list,task",
-      "deploy": "https://www.google.com",
-      "repository": "https://www.github.com",
+      "deploy": "https://todo-list-tolez.vercel.app/",
+      "repository": "https://github.com/toleZ/todo-list",
       "type": "Front End",
       "description": "A simple to-do list app for task organization."
+    },
+    {
+      "title": "Crypto 🪙",
+      "image": "https://source.unsplash.com/400x250/?list,task",
+      "deploy": "https://crypto-app-silk-two.vercel.app/",
+      "repository": "https://github.com/toleZ/crypto-app",
+      "type": "Front End",
+      "description": "A cryptocurrency app for tracking prices and market trends."
     }
   ],
   "skills": ["Full Stack", "Front End", "Back End"]
