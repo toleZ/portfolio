@@ -28,7 +28,7 @@ const Projects = () => {
   const handleShowMore = () => {
     const maxToShow = projectList.length;
 
-    maxToShow === quantityProjects
+    maxToShow <= quantityProjects
       ? setQuantityProjects(6)
       : setQuantityProjects(quantityProjects + (width < 1024 ? 3 : 2));
   };
@@ -57,23 +57,36 @@ const Projects = () => {
         ))}
       </ul>
 
-      <section className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6">
-        {[...projectsToShow].map((project) => (
-          <Project project={project} key={project.title} />
-        ))}
-      </section>
+      {projectsToShow.length ? (
+        <section className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6">
+          {[...projectsToShow].map((project) => (
+            <Project project={project} key={project.title} />
+          ))}
+        </section>
+      ) : (
+        <h2 className="text-center text-3xl text-white">
+          There are no projects to show in this category 👺
+        </h2>
+      )}
 
       <footer>
         <button
           className="mt-8 flex items-center text-gray-600 font-lora text-lg"
           onClick={handleShowMore}
         >
-          {quantityProjects === projectList.length ? "Show less" : "Show more"}
-          {quantityProjects === projectList.length ? (
-            <MdKeyboardArrowUp />
-          ) : (
-            <MdKeyboardArrowDown />
-          )}
+          {[...projectList].filter(
+            (project) =>
+              project.type === selectedSkill || selectedSkill === false
+          ).length > 6 &&
+            (quantityProjects >= projectList.length ? (
+              <>
+                Show less <MdKeyboardArrowUp />
+              </>
+            ) : (
+              <>
+                Show more <MdKeyboardArrowDown />
+              </>
+            ))}
         </button>
       </footer>
     </div>
