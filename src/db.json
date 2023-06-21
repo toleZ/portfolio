@@ -63,6 +63,22 @@
       "repository": "https://github.com/toleZ/crypto-app",
       "type": "Front End",
       "description": "A cryptocurrency app for tracking prices and market trends."
+    },
+    {
+      "title": "Forex Track 💸",
+      "image": "https://source.unsplash.com/400x250/?money,crypto",
+      "deploy": "https://forex-track.vercel.app/",
+      "repository": "https://github.com/toleZ/ForexTrack",
+      "type": "Front End",
+      "description": "Search and view images and videos using keywords in a search bar"
+    },
+    {
+      "title": "Visual Echoes 📷",
+      "image": "https://source.unsplash.com/400x250/?camera,photography",
+      "deploy": "https://visual-echoes.vercel.app/",
+      "repository": "https://github.com/toleZ/VisualEchoes",
+      "type": "Front End",
+      "description": "A cryptocurrency app for tracking prices and market trends."
     }
   ],
   "skills": ["Full Stack", "Front End", "Back End"]
